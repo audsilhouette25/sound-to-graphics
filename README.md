@@ -1,5 +1,6 @@
 # 🎵 Beyond Parentheses
-**Personalizing Graphical Sound Captions through Interactive Machine Learning.** **AI 기반 인터랙티브 오디오 시각화 및 파인튜닝 워크스테이션**
+**Personalizing Graphical Sound Captions through Interactive Machine Learning.** 
+**AI 기반 인터랙티브 오디오 시각화 및 파인튜닝 워크스테이션**
 
 ---
 
