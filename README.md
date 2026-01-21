@@ -1,5 +1,6 @@
 # 🎵 Beyond Parentheses
 **Personalizing Graphical Sound Captions through Interactive Machine Learning.** 
+<br>
 **AI 기반 인터랙티브 오디오 시각화 및 파인튜닝 워크스테이션**
 
 ---
@@ -151,17 +152,7 @@ Bash
 python app.py
 서버 실행 후 브라우저에서 접속: http://localhost:5001
 
-📂 폴더 구조
-IML-Audio-Workstation/
-├── app.py               # Flask 서버 및 메인 로직
-├── model.py             # PyTorch 모델 정의 (DualHeadNet)
-├── best_model.pth       # 학습된 모델 가중치 파일
-├── static/
-│   ├── index.html       # 프론트엔드 UI
-│   ├── sketch.js        # Three.js 시각화 로직
-│   └── style.css        # 스타일시트
-├── uploads/             # 업로드된 오디오 저장소
-└── data/                # 학습 데이터 저장소
+
 💻 기술 스택
 Backend: Python, Flask, PyTorch, Librosa
 
