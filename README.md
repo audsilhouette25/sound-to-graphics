@@ -79,11 +79,10 @@ IML-Audio-Workstation/
 Backend: Python, Flask, PyTorch, Librosa
 
 Frontend: HTML5, CSS3, JavaScript, Three.js (GLSL)
-
 </details>
 
-<details open> <summary><strong>🇰🇷 한국어 설명 (클릭하여 펼치기)</strong></summary>
-
+<summary><strong>🇰🇷 한국어 설명 (클릭하여 펼치기)</strong></summary>
+<br>
 
 📖 소개
 IML Audio Workstation은 딥러닝(Deep Learning)을 활용하여 오디오를 분석하고, 이를 시네마틱한 그래픽으로 시각화하는 웹 기반 인터랙티브 툴입니다.
