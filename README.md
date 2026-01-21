@@ -1,6 +1,5 @@
-# 🎵 IML Audio Workstation
-
-**An AI-powered interactive audio visualization tool with human-in-the-loop fine-tuning.** **AI 기반 인터랙티브 오디오 시각화 및 파인튜닝 워크스테이션**
+# 🎵 Beyond Parentheses
+**Personalizing Graphical Sound Captions through Interactive Machine Learning.** **AI 기반 인터랙티브 오디오 시각화 및 파인튜닝 워크스테이션**
 
 ---
 
@@ -85,9 +84,9 @@ Frontend: HTML5, CSS3, JavaScript, Three.js (GLSL)
 <br>
 
 📖 소개
-IML Audio Workstation은 딥러닝(Deep Learning)을 활용하여 오디오를 분석하고, 이를 시네마틱한 그래픽으로 시각화하는 웹 기반 인터랙티브 툴입니다.
+딥러닝(Deep Learning)을 활용하여 오디오를 분석하고, 이를 시네마틱한 그래픽으로 시각화하는 웹 기반 인터랙티브 툴입니다.
 
-단순한 파형 시각화를 넘어, AI가 소리의 특징을 분석하여 3가지 유형(Jagged, Fluid, Granular)의 그래픽으로 변환합니다. 사용자는 결과가 마음에 들지 않을 경우 타임라인에서 특정 구간을 선택해 수정할 수 있으며, 이 수정 데이터를 바탕으로 **AI 모델을 즉시 재학습(Fine-tuning)**시켜 나만의 시각화 모델을 만들 수 있습니다.
+단순한 파형 시각화를 넘어, AI가 소리의 특징을 분석하여 3가지 유형(Jagged, Fluid, Granular)의 그래픽으로 변환합니다. 사용자는 결과가 마음에 들지 않을 경우 타임라인에서 특정 구간을 선택해 수정할 수 있으며, 이 수정 데이터를 바탕으로 AI 모델을 재학습(Fine-tuning)시켜 나만의 시각화 모델을 만들 수 있습니다.
 
 ✨ 주요 기능
 1. 🔍 AI 오디오 분석
@@ -102,9 +101,7 @@ IML Audio Workstation은 딥러닝(Deep Learning)을 활용하여 오디오를 �
 파라미터: 크기(Scale), 투명도(Opacity), 변형도(Spikiness), 밀도(Grain).
 
 2. 🎨 시네마틱 시각화 (Three.js)
-영화 자막 바 비율인 5:1 와이드 비율의 그래픽.
-
-**Custom Shader(GLSL)**를 활용한 고품질 실시간 렌더링.
+영화 자막 바 비율인 5:1( < 이 부분 수정예정 )와이드 비율의 그래픽.
 
 Jagged: 중심에서 뻗어나가는 기하학적 형태.
 
@@ -122,7 +119,7 @@ Real-time Override: 선택 구간의 슬라이더를 조절하여 즉시 수정.
 4. 🧠 사용자 피드백 학습
 'AI 모델 학습시키기' 버튼 클릭 시, 사용자가 수정한 데이터를 바탕으로 모델을 파인튜닝(Fine-tuning) 합니다.
 
-사용하면 할수록 내 취향에 맞는 시각화 결과를 보여주는 능동 학습(Active Learning) 시스템입니다.
+사용하면 할수록 내 취향에 맞는 시각화 결과를 보여주는 능동 학습 시스템입니다.
 
 🛠 설치 및 실행 방법
 1. 사전 요구 사항
