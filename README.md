@@ -47,7 +47,7 @@ Going beyond simple waveform visualization, the AI analyzes sound characteristic
   - *Windows:* Download from [ffmpeg.org](https://ffmpeg.org) and add to PATH.
 
 ### 2. Setup
-```bash
+
 # 1. Clone the repository
 git clone [https://github.com/your-username/IML-Audio-Workstation.git](https://github.com/your-username/IML-Audio-Workstation.git)
 cd IML-Audio-Workstation
