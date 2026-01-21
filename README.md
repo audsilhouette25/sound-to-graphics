@@ -82,10 +82,11 @@ Backend: Python, Flask, PyTorch, Librosa
 Frontend: HTML5, CSS3, JavaScript, Three.js (GLSL)
 </details>
 
-<summary><strong>🇰🇷 한국어 설명 </strong></summary>
+<summary><strong> </strong></summary>
 <br>
 
 📖 소개
+<br>
 딥러닝(Deep Learning)을 활용하여 오디오를 분석하고, 이를 시네마틱한 그래픽으로 시각화하는 웹 기반 인터랙티브 툴입니다.
 
 단순한 파형 시각화를 넘어, AI가 소리의 특징을 분석하여 3가지 유형(Jagged, Fluid, Granular)의 그래픽으로 변환합니다. 사용자는 결과가 마음에 들지 않을 경우 타임라인에서 특정 구간을 선택해 수정할 수 있으며, 이 수정 데이터를 바탕으로 AI 모델을 재학습(Fine-tuning)시켜 나만의 시각화 모델을 만들 수 있습니다.
