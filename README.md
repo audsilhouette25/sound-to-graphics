@@ -81,7 +81,7 @@ Backend: Python, Flask, PyTorch, Librosa
 Frontend: HTML5, CSS3, JavaScript, Three.js (GLSL)
 </details>
 
-<summary><strong>🇰🇷 한국어 설명 (클릭하여 펼치기)</strong></summary>
+<summary><strong>🇰🇷 한국어 설명 </strong></summary>
 <br>
 
 📖 소개
