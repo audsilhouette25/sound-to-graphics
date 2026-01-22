@@ -56,23 +56,12 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-3. Run
-Bash
 
 python app.py
+
 Access the interface at: http://localhost:5001
 
-📂 Project Structure
-IML-Audio-Workstation/
-├── app.py               # Flask Server & Main Logic
-├── model.py             # PyTorch DualHeadNet Model
-├── best_model.pth       # Pre-trained Model Weights
-├── static/
-│   ├── index.html       # Frontend UI
-│   ├── sketch.js        # Three.js Visualization Logic
-│   └── style.css        # Styling
-├── uploads/             # Audio storage
-└── data/                # Training data storage
+
 💻 Tech Stack
 Backend: Python, Flask, PyTorch, Librosa
 
