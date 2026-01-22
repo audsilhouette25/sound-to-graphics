@@ -68,9 +68,9 @@ Going beyond simple waveform visualization, the AI analyzes sound characteristic
 Access the interface at: http://localhost:5001
 
 
-💻 Tech Stack
+## 💻 Tech Stack
 Backend: Python, Flask, PyTorch, Librosa
-
+<br>
 Frontend: HTML5, CSS3, JavaScript, Three.js (GLSL)
 </details>
 
