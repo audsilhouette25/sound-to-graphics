@@ -1,17 +1,17 @@
 # 🎵 Beyond Parentheses
-**Personalizing Graphical Sound Captions through Interactive Machine Learning.** 
+**Personalizing Graphical Sound Captions through Interactive Machine Learning** 
 ---
 
 <details>
-<summary><strong>🇺🇸 Description (Click to Expand)</strong></summary>
+<summary><strong>Description (Click to Expand)</strong></summary>
 <br>
 
-## 📖 Introduction
+## Introduction
 **IML Audio Workstation** is a web-based interactive tool that uses Deep Learning to analyze audio and visualize it into cinematic graphics.
 
 Going beyond simple waveform visualization, the AI analyzes sound characteristics and translates them into three graphic styles: **Jagged, Fluid, and Granular**. If the AI's interpretation doesn't match your intent, you can **select a specific timeline segment to edit** parameters. The system then **fine-tunes the model** based on your edits, effectively learning your visual preferences.
 
-## ✨ Key Features
+## Key Features
 
 ### 1. 🔍 AI Audio Analysis
 - **Input:** Microphone recording or file upload (.wav, .mp3, .webm).
@@ -20,14 +20,14 @@ Going beyond simple waveform visualization, the AI analyzes sound characteristic
   - **Glyph Type:** Jagged (Sharp), Fluid (Soft), Granular (Particle).
   - **Parameters:** Scale, Opacity, Spikiness, Grain.
 
-### 2. 🎨 Cinematic Visualization (Three.js)
-- Rendered in a **5:1 wide aspect ratio** (Cinema Subtitle Bar style).
+### 2. Cinematic Visualization 
+- Rendered in a Cinema Subtitle Bar style.
 - **Custom GLSL Shaders** for high-quality real-time rendering.
   - **Jagged:** Geometric shapes radiating from the center.
   - **Fluid:** Smooth, liquid-like blobs.
   - **Granular:** Particle effects drifting like sand.
 
-### 3. ✂️ Interactive Editing (Human-in-the-loop)
+### 3. Interactive Editing 
 - **Timeline UI:** Drag to select segments of the audio waveform.
 - **Real-time Override:** Adjust sliders to see immediate visual changes.
 - **Loop Playback:** Seamless looping for precise editing.
@@ -51,7 +51,7 @@ git clone [https://github.com/your-username/IML-Audio-Workstation.git](https://g
 cd IML-Audio-Workstation
 
 # 2. Create virtual environment 
-<br> (Optional but recommended)
+
 python -m venv venv
 source venv/bin/activate  
 (Windows: venv\Scripts\activate)
