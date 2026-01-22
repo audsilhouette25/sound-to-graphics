@@ -53,7 +53,9 @@ cd IML-Audio-Workstation
 # 2. Create virtual environment 
 
 `python -m venv venv`
+<br>
 `source venv/bin/activate`
+<br>
 (Windows: `venv\Scripts\activate`)
 
 # 3. Install dependencies
