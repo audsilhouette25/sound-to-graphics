@@ -13,7 +13,7 @@ Going beyond simple waveform visualization, the AI analyzes sound characteristic
 
 ## Key Features
 
-### 1. 🔍 AI Audio Analysis
+### 1. AI Audio Analysis
 - **Input:** Microphone recording or file upload (.wav, .mp3, .webm).
 - **Analysis:** Feature extraction using `Librosa` and inference via `PyTorch`.
 - **Output:**
@@ -32,11 +32,11 @@ Going beyond simple waveform visualization, the AI analyzes sound characteristic
 - **Real-time Override:** Adjust sliders to see immediate visual changes.
 - **Loop Playback:** Seamless looping for precise editing.
 
-### 4. 🧠 User Feedback Training
+### 4. User Feedback Training
 - Clicking **'Train AI Model'** fine-tunes the server-side model (`DualHeadNet`) with your custom adjustments.
 - Uses **Active Learning** to adapt to user preferences over time.
 
-## 🛠 Installation & Usage
+## Installation & Usage
 
 ### 1. Prerequisites
 - **Python 3.8+**
