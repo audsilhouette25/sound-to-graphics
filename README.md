@@ -1,4 +1,4 @@
-# 🎵 Beyond Parentheses
+# 🎵 Beyond Parentheses : IML Audio Workstation
 **Personalizing Graphical Sound Captions through Interactive Machine Learning** 
 
 <details>
