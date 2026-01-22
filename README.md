@@ -46,7 +46,10 @@ Going beyond simple waveform visualization, the AI analyzes sound characteristic
 ## 2. Setup
 
 ### 1. Clone the repository
-git clone [https://github.com/your-username/IML-Audio-Workstation.git](https://github.com/your-username/IML-Audio-Workstation.git)
+git clone [https://github.com/audsilhouette25/IML-Audio-Workstation.git]
+<br>
+(https://github.com/audsilhouette25/IML-Audio-Workstation.git)
+<br>
 cd IML-Audio-Workstation
 
 ### 2. Create virtual environment 
