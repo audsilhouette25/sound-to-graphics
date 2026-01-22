@@ -1,6 +1,5 @@
 # 🎵 Beyond Parentheses
 **Personalizing Graphical Sound Captions through Interactive Machine Learning** 
----
 
 <details>
 <summary><strong>Description (Click to Expand)</strong></summary>
