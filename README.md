@@ -27,7 +27,7 @@ If you find this work useful, please cite our CHI 2026 Extended Abstract:
   publisher={ACM},
   address={New York, NY, USA}
 }
-
+```
 <details>
 <summary><h2>🚀 System Features (Click to Expand)</h2></summary>
 
