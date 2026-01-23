@@ -1,78 +1,33 @@
-# 🎵 Beyond Parentheses : <br>IML Audio Workstation
-**Personalizing Graphical Sound Captions through Interactive Machine Learning** 
+# 🎵 Beyond Parentheses : IML Audio Workstation
 
-<details>
-<summary><strong>Description (Click to Expand)</strong></summary>
-<br>
+[![CHI 2026](https://img.shields.io/badge/CHI_2026-Student_Research_Competition-blue?style=for-the-badge)](https://chi2026.acm.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
-## Introduction
-**IML Audio Workstation** is a web-based interactive tool that uses Deep Learning to analyze audio and visualize it into cinematic graphics.
+**Personalizing Graphical Sound Captions through Interactive Machine Learning**
 
-Going beyond simple waveform visualization, the AI analyzes sound characteristics and translates them into three graphic styles: **Jagged, Fluid, and Granular**. If the AI's interpretation doesn't match your intent, you can **select a specific timeline segment to edit** parameters. The system then **fine-tunes the model** based on your edits, effectively learning your visual preferences.
+> **Note to Reviewers:** This repository contains the source code and implementation details for the Extended Abstract submitted to the **CHI 2026 Student Research Competition**.
 
-## Key Features
+---
 
-### 1. AI Audio Analysis
-- **Input:** Microphone recording or file upload (.wav, .mp3, .webm).
-- **Analysis:** Feature extraction using `Librosa` and inference via `PyTorch`.
-- **Output:**
-  - **Glyph Type:** Jagged (Sharp), Fluid (Soft), Granular (Particle).
-  - **Parameters:** Scale, Opacity, Spikiness, Grain.
+![System Overview](https://via.placeholder.com/800x400?text=Place+Your+System+Architecture+Diagram+Here)
 
-### 2. Cinematic Visualization 
-- Rendered in a Cinema Subtitle Bar style.
-- **Custom GLSL Shaders** for high-quality real-time rendering.
-  - **Jagged:** Geometric shapes radiating from the center.
-  - **Fluid:** Smooth, liquid-like blobs.
-  - **Granular:** Particle effects drifting like sand.
+<details open>
+<summary><h2>📖 About the Research</h2></summary>
 
-### 3. Interactive Editing 
-- **Timeline UI:** Drag to select segments of the audio waveform.
-- **Real-time Override:** Adjust sliders to see immediate visual changes.
-- **Loop Playback:** Seamless looping for precise editing.
+While speech captions are well-established, non-verbal sound captions (e.g., *"[suspenseful music]"*) often fail to convey the intuitive "texture" and temporal dynamics of audio. 
 
-### 4. User Feedback Training
-- Clicking **'Train AI Model'** fine-tunes the server-side model (`DualHeadNet`) with your custom adjustments.
-- Uses **Active Learning** to adapt to user preferences over time.
+**"Beyond Parentheses"** proposes a parametric visual modality that translates auditory features into dynamic motion graphics. We utilize an **Interactive Machine Learning (IML)** approach, allowing users to correct the AI's interpretation and fine-tune the visualization model to match their subjective perception.
 
-# Installation & Usage
+### 📄 Citation
+If you find this work useful, please cite our CHI 2026 Extended Abstract:
 
-## 1. Prerequisites
-- **Python 3.8+**
-- **FFmpeg** (Required for audio processing)
-  - *Mac:* `brew install ffmpeg`
-  - *Windows:* Download from [ffmpeg.org](https://ffmpeg.org) and add to PATH.
-
-## 2. Setup
-
-### 1. Clone the repository
-`git clone [https://github.com/audsilhouette25/IML-Audio-Workstation.git]`
-<br>
-`(https://github.com/audsilhouette25/IML-Audio-Workstation.git)`
-<br>
-`cd IML-Audio-Workstation`
-
-### 2. Create virtual environment 
-
-`python -m venv venv`
-<br>
-`source venv/bin/activate`
-<br>
-(Windows: `venv\Scripts\activate`)
-
-### 3. Install dependencies
-`pip install -r requirements.txt`
-
-`python app.py`
-
-Access the interface at: http://localhost:5001
-
-
-## 💻 Tech Stack
-Backend: Python, Flask, PyTorch, Librosa
-<br>
-Frontend: HTML5, CSS3, JavaScript, Three.js (GLSL)
-</details>
-
-
-
+```bibtex
+@inproceedings{yang2026beyond,
+  title={Beyond Parentheses: Personalizing Graphical Sound Captions through Interactive Machine Learning},
+  author={Yang, Jiwon and Lee, Hwain},
+  booktitle={CHI '26 Extended Abstracts: CHI Conference on Human Factors in Computing Systems Extended Abstracts},
+  year={2026},
+  publisher={ACM},
+  address={New York, NY, USA}
+}
