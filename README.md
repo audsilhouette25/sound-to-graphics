@@ -9,7 +9,6 @@
 
 ---
 
-<details open>
 <summary><h2>📖 About the Research</h2></summary>
 
 While speech captions are well-established, non-verbal sound captions (e.g., *"[suspenseful music]"*) often fail to convey the intuitive "texture" and temporal dynamics of audio. 
@@ -29,20 +28,6 @@ If you find this work useful, please cite our CHI 2026 Extended Abstract:
   address={New York, NY, USA}
 }
 
-CHI 2026 SRC 제출용으로 심사위원들에게 신뢰를 주고, 연구 내용을 효과적으로 어필할 수 있도록 `README.md`를 업그레이드했습니다.
-
-**핵심 변경 사항:**
-
-1. **배지(Badges) 추가:** 'CHI 2026', 'Python', 'License' 배지로 전문적인 느낌 강조.
-2. **Citation (인용) 섹션 추가:** 논문 제목과 저자 정보를 명확히 명시.
-3. **About the Research:** 단순한 툴 설명이 아니라 "이것이 어떤 연구인지" 요약.
-4. **Teaser Image:** 논문의 대표 이미지(Figure 1)를 배치할 자리 마련.
-
-아래 마크다운 코드를 그대로 복사해서 `README.md` 파일 전체를 교체하거나 필요한 부분만 추가하세요.
-
----
-
-```markdown
 # 🎵 Beyond Parentheses : IML Audio Workstation
 
 [![CHI 2026](https://img.shields.io/badge/CHI_2026-Student_Research_Competition-blue?style=for-the-badge)](https://chi2026.acm.org/)
