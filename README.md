@@ -15,19 +15,6 @@ While speech captions are well-established, non-verbal sound captions (e.g., *"[
 
 **"Beyond Parentheses"** proposes a parametric visual modality that translates auditory features into dynamic motion graphics. We utilize an **Interactive Machine Learning (IML)** approach, allowing users to correct the AI's interpretation and fine-tune the visualization model to match their subjective perception.
 
-### 📄 Citation
-If you find this work useful, please cite our CHI 2026 Extended Abstract:
-
-```bibtex
-@inproceedings{yang2026beyond,
-  title={Beyond Parentheses: Personalizing Graphical Sound Captions through Interactive Machine Learning},
-  author={Yang, Jiwon and Lee, Hwain},
-  booktitle={CHI '26 Extended Abstracts: CHI Conference on Human Factors in Computing Systems Extended Abstracts},
-  year={2026},
-  publisher={ACM},
-  address={New York, NY, USA}
-}
-```
 <details>
 <summary><h2>🚀 System Features (Click to Expand)</h2></summary>
 
