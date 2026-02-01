@@ -1,6 +1,5 @@
 # 🎵 Beyond Parentheses : IML Audio Workstation
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 **Personalizing Graphical Sound Captions through Interactive Machine Learning**
